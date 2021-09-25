@@ -1,0 +1,32 @@
+<nav class="navbar navbar-bright navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" routerLink="/" style="color: white;">HOME</a>
+    <button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <!-- <li class="nav-item">
+          <a class="nav-link" routerLink="/books"  style="color: white;">BOOKS</a>
+        </li> -->
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/authors" style="color: white;">CUSTOMER</a>
+        </li>
+        <!-- <li class="nav-item">
+            <a class="nav-link" routerLink="/newbook" *ngIf="_auth.loggedIn()" style="color: white;">ADD NEW BOOK</a>
+        </li> -->
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/newauthor" *ngIf="_auth.loggedIn()" style="color: white;">ADD NEW CUSTOMER</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/signup" *ngIf="!_auth.loggedIn()" style="color: white;">SIGNUP</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/login" *ngIf="!_auth.loggedIn()" style="color: white;">LOGIN</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" (click)="logoutUser()" *ngIf="_auth.loggedIn()" style="color: white;">LOGOUT</a>
+        </li>
+      </ul>
+    </div>
+  </nav>

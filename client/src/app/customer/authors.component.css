@@ -1,0 +1,53 @@
+.images{
+    width:150px;
+    height:150px;
+    border: 1px solid black;
+    border-radius: 50% 50%;
+    box-shadow: 10px 10px 20px rgb(24, 20, 31);
+  } 
+  .containers{
+    background-color: white;
+}
+#update{
+  /* background-color: rgb(62, 201, 62); */
+  background-color: rgba(0, 0, 0, 0.26);
+  border: 1px solid black;
+  height: 30px;
+  color: black;
+}
+#delete{
+  /* background-color: rgb(194, 60, 60); */
+  background-color: rgba(0, 0, 0, 0.26);
+  border: 1px solid black;
+  height: 30px;
+  color: black;
+}
+.fa{
+  font-size: 17px;
+}
+.details{
+  margin-left: 0%;
+}
+@media screen and (max-width: 768px) {
+  .details {
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .details {
+    margin-left: 10%;
+  }
+}
+.imgdetails{
+  margin-left: 10%;
+}
+@media screen and (max-width: 768px) {
+  .imgdetails {
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .imgdetails {
+    margin-left: 10%;
+  }
+}

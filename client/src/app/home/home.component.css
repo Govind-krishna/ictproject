@@ -1,0 +1,18 @@
+body{
+    background-color: #eec0bc;
+  }
+  .images{
+    width:150px;
+    height:150px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 20px rgb(24, 20, 31);
+  }
+  h3{
+    margin-top: 7%;
+  }
+  img{
+    box-shadow: 10px 20px 20px rgb(24, 20, 31);
+  }
+  .animate{
+    animation:ease-in;
+  }
